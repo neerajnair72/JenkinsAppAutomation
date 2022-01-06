@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.759 sec <<< FAILURE!
+tearDown(AppAutomation)  Time elapsed: 0.11 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: No command or response codec has been defined. Unable to proceed
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JMLCJ1O', ip: '192.168.100.100', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:148)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:272)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at AppAutomation.tearDown(AppAutomation.java:72)
