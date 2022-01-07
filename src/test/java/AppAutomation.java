@@ -41,7 +41,7 @@ public class AppAutomation {
 
 //        driver = new RemoteWebDriver(new
 //                URL("https://"+userName+":"+accessKey+"driver = new RemoteWebDriver(new URL(hub), caps);"), capabilities);
-        driver = new AndroidDriver(new URL("https://userName:accessKey@beta-hub.lambdatest.com/wd/hub"), capabilities);
+       driver = new AndroidDriver(new URL("https://"+userName+":"+accessKey+"@beta-hub.lambdatest.com/wd/hub"), capabilities);
     }
     @Test
     public void basicTest() {
