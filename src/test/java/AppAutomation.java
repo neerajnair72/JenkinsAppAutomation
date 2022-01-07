@@ -31,7 +31,7 @@ public class AppAutomation {
         capabilities.setCapability("deviceName", deviceName);
         capabilities.setCapability("isRealMobile", true);
         capabilities.setCapability("platformVersion",platformVersion);
-        capabilities.setCapability("app", "lt://APP10020521641460986975126");
+        capabilities.setCapability("app", "lt://APP10020521641541974093818");
 
         capabilities.setCapability("deviceOrientation", "PORTRAIT");
         capabilities.setCapability("console",true);
