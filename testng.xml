@@ -4,8 +4,8 @@
 
     <test name="App">
         <parameter name="platformName" value="Android"></parameter>
-        <parameter name="deviceName" value="Galaxy S9"></parameter>
-        <parameter name="platformVersion" value="10"></parameter>
+        <parameter name="deviceName" value="Galaxy S21"></parameter>
+        <parameter name="platformVersion" value="11"></parameter>
 
 
         <classes>
